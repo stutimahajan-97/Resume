@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 const About = () => {
         return (
             <div className="condiv">
-            <h1 className="subtopic">About Me</h1>
             <h4>STUTI MAHAJAN</h4>
             <h4> UDHAMPUR,JAMMU AND KASHMIR,182101</h4>
             <h3>Email  :   mahajanstuti07@gmail.com</h3>
