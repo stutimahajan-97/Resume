@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-function About() {
+const About = () => {
         return (
             <div className="condiv">
             <h1 className="subtopic">About Me</h1>
@@ -22,6 +22,5 @@ function About() {
             </div>
             )
         }
-    }
     
 export default About
