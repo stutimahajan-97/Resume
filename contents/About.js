@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
 
-class About extends Component {
-    render() {
+function About() {
         return (
             <div className="condiv">
             <h1 className="subtopic">About Me</h1>
