@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-
+import React from 'react';
+import Social from '../components/Social';
 
 const About = () => {
         return (
@@ -17,7 +17,7 @@ const About = () => {
             creating Interactive UI components for better UX  and share those desgin and codes
             to the world through Github, Codepen.
             </p>
-            
+            <Social />
             </div>
             )
         }
