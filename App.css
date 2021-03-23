@@ -27,6 +27,12 @@ nav
   background: rgb(238,103,143);
   background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
 }
+.logo
+{
+  border-radius: 500%;
+  width: 200px;
+  margin: 30px;
+}
 .condiv
 {
   padding: 100px ;
