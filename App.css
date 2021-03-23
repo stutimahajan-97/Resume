@@ -12,7 +12,7 @@
   padding: 0;
 }
 body{
-  font-family: 'Raleway';
+  font-family: 'Times New Roman';
 }
 .App
 {
@@ -32,6 +32,7 @@ nav
   border-radius: 500%;
   width: 200px;
   margin: 30px;
+  border: 2px solid powderblue;
 }
 .condiv
 {
@@ -46,13 +47,7 @@ nav
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
-}
-.profilepic
-{
-  border-radius: 50%;
-  width: 200px;
-  margin: 30px;
+  font-family: Cursive;
 }
 .typingeffect
 {
@@ -80,12 +75,15 @@ a
 
 .subtopic
 {
+  color: blue;
   margin:10px 10px 30px 10px !important;
+  text-decoration: underline;
 }
 p{
   font-size: var(--fontsize-p);
+  margin: 10px;
 }
-h1,h2,h3,h4,p{
+h1,h2,h3,h4{
   margin: 10px;
 }
 .social
