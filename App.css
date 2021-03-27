@@ -27,6 +27,21 @@ nav
   background: rgb(238,103,143);
   background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
 }
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: none;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100px;
+  border-radius: 10px;
+}
 .logo
 {
   border-radius: 500%;
@@ -125,7 +140,7 @@ h1,h2,h3,h4{
   margin:30px;
 }
 
-@media all and (max-width: 450px) {
+@media screen and (max-width: 800px) {
   :root {
     --fontsize-nav:1rem;
     --sidebar-flex:0;
@@ -166,22 +181,10 @@ h1,h2,h3,h4{
     padding-right: 0px;
   }
 }
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+@media screen  and (min-width: 400px) {
+  .navbar
+  {
+  navitem: center;
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
   }
 }
