@@ -181,10 +181,14 @@ h1,h2,h3,h4{
     padding-right: 0px;
   }
 }
-@media screen  and (min-width: 400px) {
-  .navbar
+@media screen  and (min-width: 500px) {
+  nav ul
   {
-  navitem: center;
-
-  }
+    display: top;
+  flex-direction: column;
+  text-align: center;
+ }
+ .condiv{
+   
+ }
 }
